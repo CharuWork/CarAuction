@@ -1,0 +1,770 @@
+.featured-listing {
+  background-color: #f5fafe;
+}
+.featured-listing .heading-section-2 .dec i {
+  background-color: #f5fafe;
+}
+.featured-listing #featured-cars .col-md-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.featured-listing #featured-cars .col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .featured-listing #featured-cars .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .featured-listing #featured-cars .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .featured-listing #featured-cars .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (max-width: 991px) {
+  .featured-listing #featured-cars .featured-item {
+    margin-bottom: 30px;
+  }
+}
+.featured-listing #featured-cars .featured-item img {
+  width: 100%;
+  overflow: hidden;
+}
+.featured-listing #featured-cars .featured-item .down-content {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.featured-listing #featured-cars .featured-item .down-content h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+  width: 70%;
+  display: inline-block;
+}
+.featured-listing #featured-cars .featured-item .down-content span {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 36px;
+  padding: 0px 12px;
+  display: inline-block;
+  margin-top: -15px;
+  margin-right: -15px;
+  float: right;
+  background-color: #f4c23d;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+}
+.featured-listing #featured-cars .featured-item .down-content .light-line {
+  width: 40px;
+  height: 2px;
+  background-color: #eeeeee;
+  margin-top: 15px;
+}
+.featured-listing #featured-cars .featured-item .down-content p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.featured-listing #featured-cars .featured-item .down-content .car-info {
+  margin: -15px;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+}
+.featured-listing #featured-cars .featured-item .down-content .car-info ul {
+  padding: 0;
+  margin: 0px 15px;
+  list-style: none;
+}
+.featured-listing #featured-cars .featured-item .down-content .car-info ul li {
+  text-align: left;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px 5px;
+  border-right: 1px solid #eeeeee;
+  display: inline-block;
+  font-size: 13px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+}
+.featured-listing
+  #featured-cars
+  .featured-item
+  .down-content
+  .car-info
+  ul
+  li
+  i {
+  margin-left: -5px;
+  margin-right: 5px;
+  color: #222222;
+}
+.featured-listing
+  #featured-cars
+  .featured-item
+  .down-content
+  .car-info
+  ul
+  li:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+.featured-listing #featured-cars .featured-item:hover h2 {
+  color: #336699;
+}
+.pre-featured {
+  background-color: #f5fafe;
+  margin-bottom: 30px;
+}
+.pre-featured h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.pre-featured .right-content {
+  text-align: right;
+}
+.pre-featured .right-content .input-select {
+  margin: 15px 10px;
+  display: inline-block;
+}
+.pre-featured .right-content .input-select select {
+  cursor: pointer;
+  border: 1px solid #e5f2ff;
+  width: 180px;
+  height: 36px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  color: #336699;
+  text-transform: uppercase;
+  outline: none;
+}
+.pre-featured .right-content .input-select select option {
+  font-size: 10px;
+  color: #888888;
+  margin-bottom: 5px;
+}
+.pre-featured .right-content .grid-list {
+  float: right;
+  display: inline-block;
+  margin: 15px 20px 15px 0px;
+}
+.pre-featured .right-content .grid-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.pre-featured .right-content .grid-list ul li {
+  margin: 0 2px;
+  display: inline-block;
+}
+.pre-featured .right-content .grid-list ul li a {
+  color: #336699;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  display: inline-block;
+  border: 1px solid #e5f2ff;
+  background-color: #ffffff;
+}
+.listing-grid .featured-item {
+  margin-bottom: 30px;
+}
+.listing-grid .featured-item img {
+  width: 100%;
+  overflow: hidden;
+}
+.listing-grid .featured-item .down-content {
+  background-color: #ffffff;
+  padding: 15px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.listing-grid .featured-item .down-content h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+  width: 70%;
+  display: inline-block;
+}
+.listing-grid .featured-item .down-content span {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 36px;
+  padding: 0px 12px;
+  display: inline-block;
+  margin-top: -15px;
+  margin-right: -15px;
+  float: right;
+  background-color: #f4c23d;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+}
+.listing-grid .featured-item .down-content .light-line {
+  width: 40px;
+  height: 2px;
+  background-color: #eeeeee;
+  margin-top: 15px;
+}
+.listing-grid .featured-item .down-content p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.listing-grid .featured-item .down-content .car-info {
+  margin: -15px;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+}
+.listing-grid .featured-item .down-content .car-info ul {
+  padding: 0;
+  margin: 0px 15px;
+  list-style: none;
+}
+.listing-grid .featured-item .down-content .car-info ul li {
+  text-align: left;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px 5px;
+  border-right: 1px solid #eeeeee;
+  display: inline-block;
+  font-size: 13px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+}
+.listing-grid .featured-item .down-content .car-info ul li i {
+  margin-left: -5px;
+  margin-right: 5px;
+  color: #222222;
+}
+.listing-grid .featured-item .down-content .car-info ul li:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+.listing-grid .featured-item:hover h2 {
+  color: #336699;
+}
+.listing-grid .pagination {
+  display: inline-block;
+  width: 100%;
+}
+.listing-grid .pagination .prev {
+  text-align: left;
+  margin-bottom: -36px;
+}
+.listing-grid .pagination .prev a {
+  background-color: #f5fafe;
+  border: 1px solid #e5f2ff;
+  padding: 0px 15px;
+  height: 36px;
+  display: inline-block;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #336699;
+  text-transform: uppercase;
+}
+.listing-grid .pagination .prev a i {
+  margin-right: 5px;
+}
+.listing-grid .pagination .next {
+  text-align: right;
+  margin-top: -36px;
+}
+.listing-grid .pagination .next a {
+  background-color: #f5fafe;
+  border: 1px solid #e5f2ff;
+  padding: 0px 15px;
+  height: 36px;
+  display: inline-block;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #336699;
+  text-transform: uppercase;
+}
+.listing-grid .pagination .next a i {
+  margin-left: 5px;
+}
+.listing-grid .pagination .page-numbers {
+  text-align: center;
+  background-color: #f5fafe;
+  border: 1px solid #e5f2ff;
+  height: 36px;
+  width: 245px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.listing-grid .pagination .page-numbers ul {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  list-style: none;
+}
+.listing-grid .pagination .page-numbers ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+.listing-grid .pagination .page-numbers ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 36px;
+  color: #336699;
+  text-transform: uppercase;
+}
+.listing-grid .pagination .page-numbers ul .active a {
+  border-bottom: 2px solid #336699;
+  padding-bottom: 7px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.listing-page {
+  text-align: left;
+}
+.listing-page #listing-cars .featured-item {
+  margin-bottom: 50px;
+}
+.listing-page #listing-cars .featured-item img {
+  width: 300px;
+  height: 220px;
+  max-width: 100%;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content {
+  border-top: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #ffffff;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content {
+    padding: 20px;
+    margin-left: 0px;
+    border-top: none;
+    border-left: 1px solid #eeeeee;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+  width: 70%;
+}
+.listing-page #listing-cars .featured-item .right-content span {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 36px;
+  padding: 0px 12px;
+  display: inline-block;
+  margin-top: -37px;
+  margin-right: 0px;
+  float: right;
+  background-color: #f4c23d;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #222222;
+  font-weight: 700;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content span {
+    margin-top: -37px;
+    margin-right: -20px;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content .light-line {
+  width: 60px;
+  height: 2px;
+  background-color: #eeeeee;
+  margin-top: 15px;
+  margin-left: 310px;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content .light-line {
+    margin-left: 0px;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content p {
+  margin-top: 10px;
+  margin-bottom: 18px;
+  margin-right: 20px;
+}
+.listing-page #listing-cars .featured-item .right-content .view-details {
+  display: inline-block;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content .view-details {
+    float: left;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content .view-details a {
+  font-size: 11px;
+  font-family: "Montserrat", sans-serif;
+  color: #336699;
+  text-transform: uppercase;
+  border: 1px solid #eeeeee;
+  padding: 5px 8px;
+  display: inline-block;
+}
+.listing-page #listing-cars .featured-item .right-content .item-rate {
+  margin-left: 430px;
+  margin-top: -25px;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content .item-rate {
+    margin-left: 20px;
+    float: left;
+    margin-top: 0px;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content .item-rate ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.listing-page #listing-cars .featured-item .right-content .item-rate ul li {
+  display: inline-block;
+}
+.listing-page #listing-cars .featured-item .right-content .item-rate ul li i {
+  font-size: 13px;
+  color: #f4c23d;
+}
+.listing-page #listing-cars .featured-item .right-content .car-info {
+  margin-top: 20px;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content .car-info {
+    margin-top: 80px;
+    border-bottom: none;
+    border-top: none;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content .car-info ul {
+  background-color: #f5fafe;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content .car-info ul {
+    float: none;
+    text-align: center;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content .car-info ul li {
+  text-align: left;
+  padding-right: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px 5px;
+  border-right: 1px solid #eeeeee;
+  display: inline-block;
+  font-size: 13px;
+  color: #888888;
+  font-family: "Roboto", sans-serif;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content .car-info ul li {
+    border-right: none;
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+.listing-page #listing-cars .featured-item .right-content .car-info ul li i {
+  margin-left: -5px;
+  margin-right: 5px;
+  color: #222222;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .featured-item .right-content .car-info ul li i {
+    margin: 0 5px;
+  }
+}
+.listing-page
+  #listing-cars
+  .featured-item
+  .right-content
+  .car-info
+  ul
+  li:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+@media (max-width: 991px) {
+  .listing-page
+    #listing-cars
+    .featured-item
+    .right-content
+    .car-info
+    ul
+    li:last-child {
+    display: none;
+  }
+}
+.listing-page #listing-cars .featured-item:hover h2 {
+  color: #336699;
+}
+.listing-page #listing-cars .last-featured {
+  margin-bottom: 30px;
+}
+.listing-page #listing-cars .pagination {
+  display: inline-block;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .listing-page #listing-cars .pagination {
+    margin-bottom: 80px;
+  }
+}
+.listing-page #listing-cars .pagination .prev {
+  text-align: left;
+  margin-bottom: -36px;
+}
+.listing-page #listing-cars .pagination .prev a {
+  background-color: #f5fafe;
+  border: 1px solid #e5f2ff;
+  padding: 0px 15px;
+  height: 36px;
+  display: inline-block;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #336699;
+  text-transform: uppercase;
+}
+.listing-page #listing-cars .pagination .prev a i {
+  margin-right: 5px;
+}
+.listing-page #listing-cars .pagination .next {
+  text-align: right;
+  margin-top: -36px;
+}
+.listing-page #listing-cars .pagination .next a {
+  background-color: #f5fafe;
+  border: 1px solid #e5f2ff;
+  padding: 0px 15px;
+  height: 36px;
+  display: inline-block;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #336699;
+  text-transform: uppercase;
+}
+.listing-page #listing-cars .pagination .next a i {
+  margin-left: 5px;
+}
+.listing-page #listing-cars .pagination .page-numbers {
+  text-align: center;
+  background-color: #f5fafe;
+  border: 1px solid #e5f2ff;
+  height: 36px;
+  width: 245px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.listing-page #listing-cars .pagination .page-numbers ul {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  list-style: none;
+}
+.listing-page #listing-cars .pagination .page-numbers ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+.listing-page #listing-cars .pagination .page-numbers ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 36px;
+  color: #336699;
+  text-transform: uppercase;
+}
+.listing-page #listing-cars .pagination .page-numbers ul .active a {
+  border-bottom: 2px solid #336699;
+  padding-bottom: 7px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+#sidebar .sidebar-content {
+  background-color: #336699;
+}
+#sidebar .sidebar-content .head-side-bar {
+  padding: 15px 0px;
+  background-color: #2f5e8e;
+}
+#sidebar .sidebar-content .head-side-bar h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-left: 4px solid #f4c23d;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+#sidebar .sidebar-content .search-form {
+  padding: 25px;
+}
+#sidebar .sidebar-content .search-form .select {
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+#sidebar .sidebar-content .search-form .select #make {
+  margin-bottom: 20px;
+}
+#sidebar .sidebar-content .search-form .select #model {
+  margin-bottom: 20px;
+}
+#sidebar .sidebar-content .search-form .select #style {
+  margin-bottom: 30px;
+}
+#sidebar .sidebar-content .search-form .select #types {
+  margin-bottom: 20px;
+}
+#sidebar .sidebar-content .search-form .select #color {
+  margin-bottom: 20px;
+}
+#sidebar .sidebar-content .search-form select {
+  border: 1px solid #5e90c2;
+  cursor: pointer;
+  width: 100%;
+  background-color: #336699;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #a7cdf2;
+  padding: 8px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+#sidebar .sidebar-content .search-form .select:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  color: #a7cdf2;
+  padding: 8px 8px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+#sidebar .sidebar-content .search-form .advanced-button {
+  width: 100%;
+  text-align: center;
+}
+#sidebar .sidebar-content .search-form .advanced-button a {
+  margin-right: 8px;
+}
+#sidebar .min-max-range {
+  width: 100%;
+  color: white;
+  margin-bottom: 30px;
+}
+#sidebar .min-max-range input {
+  width: 40%;
+  background: transparent;
+  border: 1px solid #5e90c2;
+  padding: 4px;
+}
+#sidebar .min-max-range input::placeholder {
+  font-size: 12px;
+  color: #a7cdf2;
+  font-family: "Roboto", sans-serif; /* Firefox */
+}
+
+#sidebar .min-max-range input::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: red;
+}
+#sidebar .min-max-range input:hover {
+  border: 1px solid #5e90c2;
+}
+#sidebar .min-max-range .min-max {
+  display: flex;
+  justify-content: space-between;
+}
+/* .product-main-carousel {
+  width: 100%;
+  height: 100%;
+} */
+.product-caraousel .carousel {
+  text-align: center;
+}
+.product-caraousel {
+  margin-top: 20px;
+}
+.product-caraousel .carousel .thumb {
+  width: 10px;
+  height: 50px !important;
+  text-align: center;
+}
+.product-caraousel .carousel .thumb img {
+  height: 100%;
+  width: 100%;
+}
+.product-caraousel .carousel .slide img {
+  /* width: auto; */
+  height: 450px;
+  vertical-align: top;
+  /* border: 0; */
+}
+@media only screen and (max-width: 600px) {
+  .product-caraousel .carousel .slide img {
+    width: 80vw;
+    height: 220px;
+    vertical-align: top;
+  }
+}
